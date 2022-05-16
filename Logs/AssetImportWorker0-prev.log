@@ -1,0 +1,227 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 15789 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/black/Documents/GitHub/game-project-group-1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52972
+Successfully changed project path to: C:/Users/black/Documents/GitHub/game-project-group-1
+C:/Users/black/Documents/GitHub/game-project-group-1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 191.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/black/Documents/GitHub/game-project-group-1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005075 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 199.47 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2808ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1205ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (200ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010175 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.938 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2940ms)
+		BeginReloadAssembly (418ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (2329ms)
+			LoadAssemblies (245ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (756ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (943ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (222ms)
+				ProcessInitializeOnLoadAttributes (677ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 2.36 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2446 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.5 MB.
+System memory in use after: 163.3 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2910.
+Total: 10.103900 ms (FindLiveObjects: 0.531000 ms CreateObjectMapping: 0.198500 ms MarkObjects: 8.428200 ms  DeleteObjects: 0.942800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Environment/Crystal_Mine
+  artifactKey: Guid(3dda077592b4ac540b295573b72e897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine using Guid(3dda077592b4ac540b295573b72e897e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8a65818d88964239c235c794007211') in 0.025038 seconds 
+  Import took 0.036189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/Environment/Crystal_Mine/Prefabs/Wall_Corner.prefab
+  artifactKey: Guid(d0c912cf2ddddbc4483afce747d3db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine/Prefabs/Wall_Corner.prefab using Guid(d0c912cf2ddddbc4483afce747d3db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba318714a11ac18666c340ca4be047e') in 0.273262 seconds 
+  Import took 0.283179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Environment/Crystal_Mine/Prefabs/WoodenBeams.prefab
+  artifactKey: Guid(8985ba593c9e50b4984f406f3e24b061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine/Prefabs/WoodenBeams.prefab using Guid(8985ba593c9e50b4984f406f3e24b061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35faa33c163a6a2a738ec50ae2422e64') in 0.057055 seconds 
+  Import took 0.065652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Environment/Crystal_Mine/Scenes
+  artifactKey: Guid(7f34e1e75d2c8d848a2840f0a89993f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine/Scenes using Guid(7f34e1e75d2c8d848a2840f0a89993f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92786dda9e6abb5e5ec1dbc5097ed85a') in 0.053861 seconds 
+  Import took 0.062377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Environment/Crystal_Mine/Prefabs
+  artifactKey: Guid(ac9461d480631e643a087c5b67e4295f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine/Prefabs using Guid(ac9461d480631e643a087c5b67e4295f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28efe75012dc18d8306595de7754c6f') in 0.012477 seconds 
+  Import took 0.020631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Environment/Crystal_Mine/Prefabs/Wall 2x1.prefab
+  artifactKey: Guid(d3fdda8eed586cb4b84582ea5c7cf12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine/Prefabs/Wall 2x1.prefab using Guid(d3fdda8eed586cb4b84582ea5c7cf12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572f8cee6bd1251e751fe5037bfbfa2b') in 0.039395 seconds 
+  Import took 0.047879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Environment/Crystal_Mine/Prefabs/Floor.prefab
+  artifactKey: Guid(8e2a80e35db1ddd4090f8cc5ca764511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine/Prefabs/Floor.prefab using Guid(8e2a80e35db1ddd4090f8cc5ca764511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c724eefa789179f6e96ca26ea0753701') in 0.115374 seconds 
+  Import took 0.123983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.917336 seconds.
+  path: Assets/Environment/Crystal_Mine/Prefabs/CrystalCluster.prefab
+  artifactKey: Guid(45775b024fd64674bab6655bde5115ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine/Prefabs/CrystalCluster.prefab using Guid(45775b024fd64674bab6655bde5115ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0c78e990c1df47677de96e2e191514') in 0.167915 seconds 
+  Import took 0.180622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.787679 seconds.
+  path: Assets/Environment/Crystal_Mine/Prefabs/WoodenWall.prefab
+  artifactKey: Guid(0332f975d38b4984bb3aaee3af5085ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine/Prefabs/WoodenWall.prefab using Guid(0332f975d38b4984bb3aaee3af5085ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930a0b59b4ca3ec2bc33b6455869b7e7') in 0.081675 seconds 
+  Import took 0.092611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001554 seconds.
+  path: Assets/Environment/Crystal_Mine/Prefabs/WoodenWall.prefab
+  artifactKey: Guid(0332f975d38b4984bb3aaee3af5085ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine/Prefabs/WoodenWall.prefab using Guid(0332f975d38b4984bb3aaee3af5085ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930a0b59b4ca3ec2bc33b6455869b7e7') in 0.038640 seconds 
+  Import took 0.059464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.285003 seconds.
+  path: Assets/Environment/Crystal_Mine/Prefabs/Wall.prefab
+  artifactKey: Guid(274eda99c510a1f44a1db8802f60a5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine/Prefabs/Wall.prefab using Guid(274eda99c510a1f44a1db8802f60a5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778375cfd6be70d5fa2e427213eb5c9c') in 0.065348 seconds 
+  Import took 0.077753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.150050 seconds.
+  path: Assets/Environment/Crystal_Mine/Prefabs/Wall.prefab
+  artifactKey: Guid(274eda99c510a1f44a1db8802f60a5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Crystal_Mine/Prefabs/Wall.prefab using Guid(274eda99c510a1f44a1db8802f60a5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778375cfd6be70d5fa2e427213eb5c9c') in 0.042935 seconds 
+  Import took 0.053761 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
